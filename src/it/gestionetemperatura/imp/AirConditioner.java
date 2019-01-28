@@ -6,7 +6,7 @@ public class AirConditioner extends CoolingSystem {
 
 	@Override
 	public void cool() {
-		
+		System.out.println("AirConditioner cool!!!");
 
 	}
 
