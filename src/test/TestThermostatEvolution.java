@@ -1,30 +1,32 @@
 package test;
 
-import it.gestionetemperatura.ThermostatCompatible;
+import it.gestionetemperatura.ThermostatEvolution;
 import it.gestionetemperatura.imp.AirConditioner;
 import it.gestionetemperatura.imp.HeatPump;
 
 /**
- * Classe test versione termostato compatibile - con funzioanlità anche di riscaldamento
+ * Classe di test versione termostato evoluta con funzionalità raffreddamento e riscaldamento.
  * 
- *  @see ThermostatCompatible
+ * @see ThermostatEvolution
+ * @author cam
+ *
  */
-public class TestThermostatCompatible {
-	
+public class TestThermostatEvolution {
+
 	private static void testWithAirConditioner() {
 		System.out.println("\n\n--> testWithAirConditioner");
 		
-		ThermostatCompatible term = new ThermostatCompatible(new AirConditioner());
+		// ThermostatNew term = new ThermostatNew(new AirConditioner()); // ERRORE COMPILAZIONE
 		
-        term.lowerTemperature();
+        // term.lowerTemperature();
 		
-		term.highterTemperature();
+		// term.highterTemperature();
 	}
 	
 	private static void testWithHeatPunp() {
 		System.out.println("\n\n--> testWithHeatPunp");
 		
-		ThermostatCompatible term = new ThermostatCompatible(new HeatPump());
+		ThermostatEvolution term = new ThermostatEvolution(new HeatPump());
 		
 		term.lowerTemperature();
 		

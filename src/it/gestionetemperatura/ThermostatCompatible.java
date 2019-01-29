@@ -1,5 +1,14 @@
 package it.gestionetemperatura;
 
+/**
+ * Termostato compatibile anche per sistemi di riscaldamento.
+ * 
+ * @see CoolingSystem
+ * @see TemperatureSystem
+ * 
+ * @author cam
+ *
+ */
 public class ThermostatCompatible {
 	
 	private CoolingSystem coolingSystem;

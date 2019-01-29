@@ -1,5 +1,13 @@
 package it.gestionetemperatura;
 
+/**
+ * Termostato semplice.
+ * 
+ * @see CoolingSystem
+ * 
+ * @author cam
+ *
+ */
 public class Thermostat {
 	
 	private CoolingSystem coolingSystem;

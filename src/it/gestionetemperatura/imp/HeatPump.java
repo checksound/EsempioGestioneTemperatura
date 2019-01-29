@@ -3,6 +3,12 @@ package it.gestionetemperatura.imp;
 import it.gestionetemperatura.CoolingSystem;
 import it.gestionetemperatura.TemperatureSystem;
 
+/**
+ * Implementazione di sistema di raffreddamento e riscaldamento.
+ * 
+ * @author cam
+ *
+ */
 public class HeatPump extends CoolingSystem implements TemperatureSystem {
 
 	@Override
